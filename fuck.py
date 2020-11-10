@@ -142,7 +142,7 @@ outer_dict = {
     ]
 }
 
-# ,,, And send it.
+# ... And send it.
 request = urllib.request.Request(config["e_dgut_leave_apply_url"])
 request.add_header("x-authorization-access_token", access_token)
 request.add_header("Content-Type", "application/json;charset=UTF-8")
